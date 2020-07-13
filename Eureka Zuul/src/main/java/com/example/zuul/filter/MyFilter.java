@@ -48,6 +48,7 @@ public class MyFilter extends ZuulFilter {
             }catch (Exception e){}
             return null;
         }
+        Integer in = 0;
         return null;
     }
 }

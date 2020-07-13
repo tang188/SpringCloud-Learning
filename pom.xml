@@ -20,9 +20,13 @@
     </parent>
 
     <modules>
-        <module>eureka-server</module>
-        <module>service-client1</module>
-        <module>EurekaServer</module>
+        <module>Eureka Client</module>
+        <module>Eureka Client Ribbon1</module>
+        <module>Eureka Feign</module>
+        <module>Eureka Hystrix</module>
+        <module>Eureka Hystrix Feign</module>
+        <module>Eureka Server</module>
+        <module>Eureka Zuul</module>
     </modules>
 
     <properties>
@@ -38,6 +42,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <dependencyManagement>
@@ -48,6 +53,11 @@
                 <version>${spring-cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <scope>provided</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
