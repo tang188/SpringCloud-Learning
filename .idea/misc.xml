@@ -3,7 +3,9 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Eureka Client Ribbon" />
+    <file type="web" url="file://$PROJECT_DIR$/Eureka Client Ribbon1" />
     <file type="web" url="file://$PROJECT_DIR$/Eureka Server" />
+    <file type="web" url="file://$PROJECT_DIR$/eureka-client" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

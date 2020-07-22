@@ -20,7 +20,7 @@
     </parent>
 
     <modules>
-        <module>Eureka Client</module>
+        <module>eureka-client</module>
         <module>Eureka Client Ribbon1</module>
         <module>Eureka Feign</module>
         <module>Eureka Hystrix</module>
